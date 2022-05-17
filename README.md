@@ -1,5 +1,8 @@
-# Introduction
-This the project folder for the paper `Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditions'. The proposed approach uses Retinanet-50 architecture, with fusion of RGB and event features occuring at multiple levels in the feature pyramid net.
+# Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditions
+Authors: Abhishek Tomy, Anshul Paigwar, Khushdeep Singh Mann, Alessandro Renzaglia, Christian Laugier 
+
+
+This repository is official code release for the paper 'Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditions'. This research work was accepted in ICRA 2022 Philadelphia, USA.  The proposed approach uses Retinanet-50 architecture, with fusion of RGB and event features occuring at multiple levels in the feature pyramid net.
 
 The main script to train the sensor fusion model is:
 
