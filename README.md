@@ -1,6 +1,7 @@
 # Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditions
 Authors: Abhishek Tomy, Anshul Paigwar, Khushdeep Singh Mann, Alessandro Renzaglia, Christian Laugier 
 
+[Paper](https://hal.archives-ouvertes.fr/hal-03591717/) | [Project website](https://abhishek1411.github.io/event-rgb-fusion/) | [Video](https://www.youtube.com/watch?v=2nrqhiiXJwY&ab_channel=AbhishekTomy) | [Presentation](https://www.youtube.com/watch?v=xg3ExZV84Yg&ab_channel=AbhishekTomy)
 
 This repository is official code release for the paper 'Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditions'. This research work was accepted in ICRA 2022 Philadelphia, USA.  The proposed approach uses Retinanet-50 architecture, with fusion of RGB and event features occuring at multiple levels in the feature pyramid net.
 
@@ -11,7 +12,7 @@ The main script to train the sensor fusion model is:
 ├── train_events.py
 
 For running the code, the input is expected in the form of event voxels and RGB images. For creating event voxels, following codebase can be utilised:
-[project webpage](https://github.com/uzh-rpg/DSEC)
+[DSEC project webpage](https://github.com/uzh-rpg/DSEC)
 
 # Abstract 
 The ability to detect objects, under image corruptions and different weather conditions is vital for deep learning models especially when applied to real-world applications such as autonomous driving. Traditional RGB-based detection fails under these conditions and it is thus important to design a sensor suite that is redundant to failures of the primary frame-based detection. Event-based cameras can complement frame-based cameras in low-light conditions and high dynamic range scenarios that an autonomous vehicle can encounter during navigation. Accordingly, we propose a redundant sensor fusion model of event-based and frame-based cameras that is robust to common image corruptions. The method utilizes a voxel grid representation for events as input and proposes a two-parallel feature extractor network for frames and events. Our sensor fusion approach is more robust to corruptions by over 30% compared to only frame-based detections and outperforms the only event-based detection. The model is trained and evaluated on the publicly released DSEC dataset.
