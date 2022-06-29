@@ -1,2 +1,3 @@
 theme: jekyll-theme-cayman
+markdown: GFM
 title: {Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditions}
